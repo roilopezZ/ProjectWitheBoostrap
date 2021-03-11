@@ -442,6 +442,7 @@
   .designMenu .box-1 .approve {
     width: 41px;
     height: 33px;
+    margin-left: 8px;
   }
   .designMenu .box-1 .fontSize {
     font-size: 14px;

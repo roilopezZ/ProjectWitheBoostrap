@@ -111,7 +111,7 @@
 
         span {
             // font-size: 16px;
-            
+
 
             .inputMenu {
                 border-radius: 30px;
@@ -142,11 +142,11 @@
         // bottom: 0;
         // right: 0;
         // left: 0;
-        
-        .premium{
+
+        .premium {
             position: relative;
             bottom: 34px;
-            right: 24px;    
+            right: 24px;
             background-color: #FFA500;
             text-align: center;
             height: 24px;
@@ -177,13 +177,15 @@
                 width: 40px;
                 background-color: white;
                 z-index: 1;
-                transition: all ease-in-out 0.1s;             
-                &:active{
-                    
+                transition: all ease-in-out 0.1s;
+
+                &:active {
+
                     opacity: 0.9;
                     transition: all ease-in-out 0.1s;
                     transform: scaleY(1.1);
                 }
+
                 &:hover {
                     background-color: rgba(196, 196, 196, 0.296);
                 }
@@ -203,9 +205,10 @@
             height: 40px;
             position: absolute;
             left: 50%;
-            transition: all ease-in-out 0.1s;             
-            &:active{
-                
+            transition: all ease-in-out 0.1s;
+
+            &:active {
+
                 opacity: 0.9;
                 transition: all ease-in-out 0.1s;
                 transform: scaleY(1.1);
@@ -261,13 +264,15 @@
             width: 40px;
             background-color: white;
             z-index: 1;
-            transition: all ease-in-out 0.1s;             
-            &:active{
-                
+            transition: all ease-in-out 0.1s;
+
+            &:active {
+
                 opacity: 0.9;
                 transition: all ease-in-out 0.1s;
                 transform: scaleY(1.1);
             }
+
             &:hover {
                 background-color: rgba(196, 196, 196, 0.296);
             }
@@ -286,9 +291,10 @@
     .addCart {
         min-width: 136px;
         min-height: 40px;
-        transition: all ease-in-out 0.1s;             
-        &:active{
-            
+        transition: all ease-in-out 0.1s;
+
+        &:active {
+
             opacity: 0.9;
             transition: all ease-in-out 0.1s;
             transform: scaleY(1.1);
@@ -349,11 +355,13 @@
     text-align: center;
     padding: 10px;
     transition: all ease-in-out 0.1s;
-    &:active{
+
+    &:active {
         opacity: 0.9;
         transition: all ease-in-out 0.1s;
-        transform: scaleY(1.1); 
+        transform: scaleY(1.1);
     }
+
     a {
         text-decoration: none;
         color: black;
@@ -368,12 +376,13 @@
     .content-375px {
         display: none;
     }
+
     .content-768px {
         display: none;
     }
 
-    .box-1{
-        .premium{
+    .box-1 {
+        .premium {
             position: relative;
             bottom: 34px;
             right: 4px !important;
@@ -432,10 +441,12 @@
                     width: 40px;
                     background-color: white;
                     transition: all ease-in-out 0.1s;
+
                     &:hover {
                         background-color: rgba(196, 196, 196, 0.296);
                     }
-                    &:active{
+
+                    &:active {
                         transition: all ease-in-out 0.1s;
                         transform: scaleY(1.1);
                     }
@@ -451,10 +462,10 @@
             }
 
 
-            .premium{
+            .premium {
                 position: relative;
                 bottom: 11px;
-                right: 1px; 
+                right: 1px;
                 background-color: #FFA500;
                 text-align: center;
                 height: 24px;
@@ -480,9 +491,10 @@
                 position: relative;
                 left: -42px;
                 top: 2px;
-                transition: all ease-in-out 0.1s;             
-                &:active{
-                    
+                transition: all ease-in-out 0.1s;
+
+                &:active {
+
                     opacity: 0.9;
                     transition: all ease-in-out 0.1s;
                     transform: scaleY(1.1);
@@ -499,6 +511,7 @@
             .approve {
                 width: 41px;
                 height: 33px;
+                margin-left: 8px;
             }
 
             .fontSize {
@@ -532,10 +545,12 @@
                     width: 40px;
                     background-color: white;
                     transition: all ease-in-out 0.1s;
+
                     &:hover {
                         background-color: rgba(196, 196, 196, 0.296);
                     }
-                    &:active{
+
+                    &:active {
                         transition: all ease-in-out 0.1s;
                         transform: scaleY(1.1);
                     }
@@ -551,11 +566,12 @@
             }
 
             .addCart {
-                
+
                 z-index: 2;
                 min-width: 0px;
                 transition: all ease-in-out 0.1s;
-                &:active{
+
+                &:active {
                     opacity: 0.9;
                     transition: all ease-in-out 0.1s;
                     transform: scaleY(1.2);
@@ -616,11 +632,13 @@
             text-align: center;
             padding: 10px;
             transition: all ease-in-out 0.1s;
-            &:active{
+
+            &:active {
                 opacity: 0.9;
                 transition: all ease-in-out 0.1s;
-                transform: scaleY(1.1); 
+                transform: scaleY(1.1);
             }
+
             a {
                 text-decoration: none;
                 color: black;
@@ -717,10 +735,10 @@
                 min-width: 280px;
                 background-color: white;
 
-                .premium{
+                .premium {
                     position: relative;
                     bottom: 10px;
-                    right: 1px; 
+                    right: 1px;
                     background-color: #FFA500;
                     text-align: center;
                     height: 24px;
@@ -738,22 +756,24 @@
                     position: relative;
                     right: 27px;
                     top: -16px;
-                    
+
                 }
 
                 .buttons {
                     width: 244px;
                     height: 40px;
-                    
+
                     .btnAdd {
                         border: 0.1px solid #E0E0E0;
                         width: 40px;
                         background-color: white;
                         transition: all ease-in-out 0.1s;
+
                         &:hover {
                             background-color: rgba(196, 196, 196, 0.296);
                         }
-                        &:active{
+
+                        &:active {
                             transition: all ease-in-out 0.1s;
                             transform: scaleY(1.1);
                         }
@@ -774,8 +794,8 @@
                 .addCart2 {
                     z-index: 2;
                     transition: all ease-in-out 0.1s;
-                   
-                    &:active{
+
+                    &:active {
                         opacity: 0.9;
                         transition: all ease-in-out 0.1s;
                         transform: scaleY(1.2);
@@ -825,8 +845,8 @@
                 min-height: 40px;
                 z-index: 2;
                 transition: all ease-in-out 0.1s;
-               
-                &:active{
+
+                &:active {
                     opacity: 0.9;
                     transition: all ease-in-out 0.1s;
                     transform: scaleY(1.2);
@@ -879,10 +899,12 @@
                     width: 40px;
                     background-color: white;
                     transition: all ease-in-out 0.1s;
+
                     &:hover {
                         background-color: rgba(196, 196, 196, 0.296);
                     }
-                    &:active{
+
+                    &:active {
                         transition: all ease-in-out 0.1s;
                         transform: scaleY(1.1);
                     }
@@ -898,6 +920,7 @@
             }
         }
     }
+
     .btnButton {
         border: solid black 1px;
         border-radius: 100px;
@@ -907,11 +930,13 @@
         text-align: center;
         padding: 10px;
         transition: all ease-in-out 0.1s;
-        &:active{
+
+        &:active {
             opacity: 0.9;
             transition: all ease-in-out 0.1s;
-            transform: scaleY(1.1); 
+            transform: scaleY(1.1);
         }
+
         a {
             text-decoration: none;
             color: black;
