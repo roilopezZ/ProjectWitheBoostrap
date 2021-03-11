@@ -1,0 +1,1230 @@
+.content-375px {
+    display: none;
+}
+
+.content-768px {
+    display: none;
+}
+
+//************************** Nav Bar **************************//
+.designNav {
+    height: 80px;
+
+    .logo {
+        margin-top: 15px;
+    }
+
+    .inputS {
+        margin-top: 20px;
+        // margin-bottom: 20px;
+        border-radius: 50px;
+        border: 1px solid gray;
+        width: 100%;
+        padding-left: 5%;
+        max-width: 525px;
+        height: 40px;
+        min-height: 40px;
+        min-width: 100%;
+        background-image: url('./img/SearchBar.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        outline: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .icon {
+        margin-top: 20px;
+        height: 80px;
+        width: 60px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+            .icon-1 {
+                font-size: 14px;
+                // margin-left: 4px;
+                // margin-right: 17px;
+            }
+        }
+    }
+
+    .iconB {
+        // position: relative;
+        // left: 20px;
+        margin-top: 20px;
+        height: 80px;
+        width: 60px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+            .icon-1 {
+                font-size: 14px;
+                // margin-left: 4px;
+                // margin-right: 17px;
+            }
+        }
+    }
+
+    .iconC {
+        // position: relative;
+        // left: 50px;
+        margin-top: 20px;
+        height: 80px;
+        width: 60px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: gray;
+
+            .icon-1 {
+                font-size: 14px;
+                // margin-left: 4px;
+                // margin-right: 17px;
+            }
+        }
+    }
+}
+
+//************************** End Nav Bar **************************//
+
+//************************** Menu Style **************************//
+.designMenu {
+    background-color: #F4F4F4;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 15%;
+
+    .containerH {
+        h2 {
+            padding-top: 31px;
+            font-size: 28px;
+        }
+
+        span {
+            // font-size: 16px;
+            
+
+            .inputMenu {
+                border-radius: 30px;
+                width: 111px;
+                text-align: center;
+            }
+        }
+
+        .fl {
+            float: right;
+            font-size: 16px;
+
+            .inputMenuB {
+                border-radius: 30px;
+                text-align: center;
+                width: 111px;
+            }
+        }
+    }
+
+    //################# Header Main box ####################//
+    .box-1 {
+        min-height: 175px;
+        width: 647px;
+        background-color: white;
+        position: relative;
+        // top: 0;
+        // bottom: 0;
+        // right: 0;
+        // left: 0;
+        
+        .premium{
+            position: relative;
+            bottom: 34px;
+            right: 24px;    
+            background-color: #FFA500;
+            text-align: center;
+            height: 24px;
+            width: 153px;
+        }
+
+        .tireIcon {
+            width: 123px;
+            height: 123px;
+            position: relative;
+            bottom: 35px;
+        }
+
+        .auto {
+            width: 40px;
+            height: 77px;
+            position: relative;
+            right: 28px;
+            top: -7px;
+        }
+
+        .buttons {
+            width: 300px;
+            height: 40px;
+
+            .btnAdd {
+                border: 0.1px solid #E0E0E0;
+                width: 40px;
+                background-color: white;
+                z-index: 1;
+                transition: all ease-in-out 0.1s;             
+                &:active{
+                    
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.1);
+                }
+                &:hover {
+                    background-color: rgba(196, 196, 196, 0.296);
+                }
+            }
+
+            span {
+                background-color: #E0E0E0;
+                text-align: center;
+                width: 50px;
+                padding-top: 8px;
+            }
+
+        }
+
+        .addCart {
+            width: 78px;
+            height: 40px;
+            position: absolute;
+            left: 50%;
+            transition: all ease-in-out 0.1s;             
+            &:active{
+                
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1);
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: 700;
+            width: 100%;
+            text-decoration: underline;
+        }
+
+        .approve {
+            width: 65px;
+            height: 52px;
+        }
+
+        .fontSize {
+            font-size: 14px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: 700;
+            position: relative;
+            bottom: 5px;
+        }
+
+        .check {
+            width: 15px;
+            height: 15px;
+        }
+
+    }
+
+    //################# End Header Main box ####################//
+}
+
+//************************** End Menu Style **************************//
+//************************** Main boxs **************************//
+.box-3 {
+    min-height: 80px;
+    min-width: auto;
+    background-color: white;
+
+    .buttons {
+        width: 130px;
+        height: 40px;
+
+        .btnAdd {
+            border: 0.1px solid #E0E0E0;
+            width: 40px;
+            background-color: white;
+            z-index: 1;
+            transition: all ease-in-out 0.1s;             
+            &:active{
+                
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1);
+            }
+            &:hover {
+                background-color: rgba(196, 196, 196, 0.296);
+            }
+        }
+
+        span {
+            background-color: #E0E0E0;
+            text-align: center;
+            width: 50px;
+            padding-top: 8px;
+        }
+
+    }
+
+
+    .addCart {
+        min-width: 136px;
+        min-height: 40px;
+        transition: all ease-in-out 0.1s;             
+        &:active{
+            
+            opacity: 0.9;
+            transition: all ease-in-out 0.1s;
+            transform: scaleY(1.1);
+        }
+    }
+
+    .title {
+        font-size: 16px;
+        font-weight: 700;
+        width: 160px;
+        text-decoration: underline;
+    }
+
+    // .approve {
+    //     width: 41px;
+    //     height: 33px;
+    // }
+
+    .fontSize {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        bottom: 6px;
+    }
+
+
+    .price2 {
+        font-size: 14px;
+        font-weight: 500;
+        color: #8E1216;
+        position: relative;
+        bottom: 9px;
+        right: 29px;
+    }
+
+    .check {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+
+}
+
+//************************** End Main boxs **************************//
+//************************** Button  **************************//
+.btnButton {
+    border: solid black 1px;
+    border-radius: 100px;
+    height: 48px;
+    margin-top: 16px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    transition: all ease-in-out 0.1s;
+    &:active{
+        opacity: 0.9;
+        transition: all ease-in-out 0.1s;
+        transform: scaleY(1.1); 
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+///////////////////////////////////////////// -----media query----- ////////////////////////////////////////////////
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
+//================== 1024 Tablet-Landscape ==================//
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .content-375px {
+        display: none;
+    }
+
+
+    .content-768px {
+        display: none;
+    }
+
+    .box-1{
+        .premium{
+            position: relative;
+            bottom: 34px;
+            right: 4px !important;
+            background-color: #FFA500;
+            text-align: center;
+            height: 24px;
+            width: 153px;
+        }
+    }
+
+    .designMenu {
+        background-color: #F4F4F4;
+        padding-left: 18px;
+        padding-right: 18px;
+
+        .box-3 {
+            .addCart {
+                padding-right: 32px;
+            }
+        }
+    }
+}
+
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
+//================== 768 Tablet ==================//
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    .contentAllSize {
+        display: none;
+    }
+
+    .content-375px {
+        display: none;
+    }
+
+
+    .content-768px {
+        display: contents;
+    }
+
+    .designNav {
+        .inputS {
+            min-width: 285px;
+        }
+    }
+
+    .designMenu {
+        .box-1 {
+            min-height: 236px;
+            min-width: 344px;
+            background-color: white;
+
+            .buttons {
+                width: 300px;
+                height: 40px;
+
+                .btnAdd {
+                    border: 0.1px solid #E0E0E0;
+                    width: 40px;
+                    background-color: white;
+                    transition: all ease-in-out 0.1s;
+                    &:hover {
+                        background-color: rgba(196, 196, 196, 0.296);
+                    }
+                    &:active{
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.1);
+                    }
+                }
+
+                span {
+                    background-color: #E0E0E0;
+                    text-align: center;
+                    width: 50px;
+                    padding-top: 8px;
+                }
+
+            }
+
+
+            .premium{
+                position: relative;
+                bottom: 11px;
+                right: 1px; 
+                background-color: #FFA500;
+                text-align: center;
+                height: 24px;
+                width: 153px;
+            }
+
+            .tireIcon {
+                width: 104px;
+                height: 104px;
+            }
+
+            .auto {
+                width: 28px;
+                height: 56px;
+                position: relative;
+                right: 28px;
+                top: 7px;
+            }
+
+            .addCart {
+                z-index: 1;
+                width: 0px;
+                position: relative;
+                left: -42px;
+                top: 2px;
+                transition: all ease-in-out 0.1s;             
+                &:active{
+                    
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.1);
+                }
+            }
+
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                width: 200px;
+                text-decoration: underline;
+            }
+
+            .approve {
+                width: 41px;
+                height: 33px;
+            }
+
+            .fontSize {
+                font-size: 14px;
+            }
+
+            .price {
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .check {
+                width: 15px;
+                height: 15px;
+            }
+
+        }
+
+        .box-3 {
+            // height: 158px;
+            min-height: 158px;
+            min-width: 344px;
+            background-color: white;
+
+            .buttons {
+                width: 300px;
+                height: 40px;
+
+                .btnAdd {
+                    border: 0.1px solid #E0E0E0;
+                    width: 40px;
+                    background-color: white;
+                    transition: all ease-in-out 0.1s;
+                    &:hover {
+                        background-color: rgba(196, 196, 196, 0.296);
+                    }
+                    &:active{
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.1);
+                    }
+                }
+
+                span {
+                    background-color: #E0E0E0;
+                    text-align: center;
+                    width: 50px;
+                    padding-top: 8px;
+                }
+
+            }
+
+            .addCart {
+                
+                z-index: 2;
+                min-width: 0px;
+                transition: all ease-in-out 0.1s;
+                &:active{
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.2);
+                }
+            }
+
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                width: 200px;
+                text-decoration: underline;
+            }
+
+            .approve {
+                width: 41px;
+                height: 33px;
+            }
+
+            .fontSize {
+                font-size: 14px;
+            }
+
+            .price {
+                font-size: 20px;
+                font-weight: 700;
+                // position: relative;
+                // bottom: 6px;
+            }
+
+
+            .price2 {
+                font-size: 14px;
+                font-weight: 500;
+                color: #8E1216;
+                min-width: 70px;
+                // position: relative;
+                // bottom: 9px;
+                // right: 29px;
+            }
+
+            .check {
+                width: 15px;
+                height: 15px;
+            }
+
+
+
+
+        }
+
+
+        .btnButton {
+            border: solid black 1px;
+            border-radius: 100px;
+            height: 48px;
+            margin-top: 16px;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            transition: all ease-in-out 0.1s;
+            &:active{
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1); 
+            }
+            a {
+                text-decoration: none;
+                color: black;
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
+//================== 500 Moblie ==================//
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .contentAllSize {
+        display: none;
+    }
+
+    .content-375px {
+        display: contents;
+    }
+
+    .designNav {
+        height: 80px;
+        width: auto;
+        min-height: 80px;
+        min-width: auto;
+
+        .user {
+            margin-top: 15px;
+        }
+
+        .inputS {
+            display: none;
+        }
+
+        .search {
+            margin-top: 15px;
+            display: inline;
+        }
+
+        .icon-1 {
+            display: none;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+
+
+    .designMenu {
+        background-color: #F4F4F4;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 15%;
+
+        .containerH {
+            h2 {
+                padding-top: 31px;
+                font-size: 28px;
+            }
+
+            span {
+                // font-size: 16px;
+                display: none;
+
+                .inputMenu {
+                    display: none;
+                }
+            }
+
+            .fl {
+                float: right;
+                font-size: 16px;
+
+                .inputMenuB {
+                    display: none;
+                }
+            }
+        }
+
+
+        .scrollMenu {
+            overflow-x: scroll;
+
+            .box-1 {
+                min-height: 236px;
+                min-width: 280px;
+                background-color: white;
+
+                .premium{
+                    position: relative;
+                    bottom: 10px;
+                    right: 1px; 
+                    background-color: #FFA500;
+                    text-align: center;
+                    height: 24px;
+                    width: 153px;
+                }
+
+                .tireIcon {
+                    width: 104px;
+                    height: 104px;
+                }
+
+                .auto {
+                    width: 28px;
+                    height: 56px;
+                    position: relative;
+                    right: 27px;
+                    top: -25px;
+                
+                }
+
+                .buttons {
+                    width: 244px;
+                    height: 40px;
+                    
+                    .btnAdd {
+                        border: 0.1px solid #E0E0E0;
+                        width: 40px;
+                        background-color: white;
+                        transition: all ease-in-out 0.1s;
+                        &:hover {
+                            background-color: rgba(196, 196, 196, 0.296);
+                        }
+                        &:active{
+                            transition: all ease-in-out 0.1s;
+                            transform: scaleY(1.1);
+                        }
+                    }
+
+                    span {
+                        text-align: center;
+                        background-color: #E0E0E0;
+                        width: 50px;
+
+
+                    }
+                }
+
+
+
+
+                .addCart2 {
+                    z-index: 2;
+                    transition: all ease-in-out 0.1s;
+                   
+                    &:active{
+                        opacity: 0.9;
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.2);
+                    }
+                }
+
+                .title {
+                    font-size: 16px;
+                    font-weight: 700;
+                    width: 200px;
+                    text-decoration: underline;
+                }
+
+                .approve {
+                    width: 41px;
+                    height: 33px;
+                }
+
+                .fontSize {
+                    font-size: 14px;
+                }
+
+                .price {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                .check {
+                    width: 15px;
+                    height: 15px;
+                }
+
+            }
+        }
+
+
+        .box-3 {
+            height: 158x;
+            min-height: 158px;
+            min-width: 338px;
+            background-color: white;
+
+
+            .addCart {
+                min-width: 136px;
+                min-height: 40px;
+                z-index: 2;
+                transition: all ease-in-out 0.1s;
+               
+                &:active{
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.2);
+                }
+            }
+
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                width: 200px;
+                text-decoration: underline;
+            }
+
+            .approve {
+                width: 41px;
+                height: 33px;
+            }
+
+            .fontSize {
+                font-size: 14px;
+            }
+
+            .price {
+                font-size: 20px;
+                font-weight: 700;
+                position: relative;
+                bottom: 6px;
+            }
+
+
+            .price2 {
+                font-size: 14px;
+                font-weight: 500;
+                color: #8E1216;
+                position: relative;
+                bottom: 9px;
+                right: 29px;
+            }
+
+            .check {
+                width: 15px;
+                height: 15px;
+            }
+
+
+            .buttons {
+                width: 250px;
+                height: 40px;
+
+                .btnAdd {
+                    border: 0.1px solid #E0E0E0;
+                    width: 40px;
+                    background-color: white;
+                    transition: all ease-in-out 0.1s;
+                    &:hover {
+                        background-color: rgba(196, 196, 196, 0.296);
+                    }
+                    &:active{
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.1);
+                    }
+                }
+
+                span {
+                    text-align: center;
+                    background-color: #E0E0E0;
+                    width: 50px;
+
+
+                }
+            }
+
+
+        }
+
+
+        .btnButton {
+            border: solid black 1px;
+            border-radius: 100px;
+            height: 48px;
+            margin-top: 16px;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            transition: all ease-in-out 0.1s;
+            &:active{
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1); 
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+    }
+
+}
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
+//================== 375 Moblie ==================//
+@media (min-width: 200px) and (max-width: 500px) {
+    .contentAllSize {
+        display: none;
+    }
+
+    .content-375px {
+        display: contents;
+    }
+
+    .designNav {
+        height: 80px;
+        width: auto;
+        min-height: 80px;
+        min-width: auto;
+
+        .user {
+            margin-top: 15px;
+        }
+
+        .inputS {
+            display: none;
+        }
+
+        .search {
+            margin-top: 15px;
+            display: inline;
+        }
+
+        .icon-1 {
+            display: none;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+
+
+    .designMenu {
+        background-color: #F4F4F4;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 15%;
+
+        .containerH {
+            h2 {
+                padding-top: 31px;
+                font-size: 28px;
+            }
+
+            span {
+                // font-size: 16px;
+                display: none;
+
+                .inputMenu {
+                    display: none;
+                }
+            }
+
+            .fl {
+                float: right;
+                font-size: 16px;
+
+                .inputMenuB {
+                    display: none;
+                }
+            }
+        }
+
+
+        .scrollMenu {
+            overflow-x: scroll;
+
+            .box-1 {
+                min-height: 236px;
+                min-width: 280px;
+                background-color: white;
+
+                .premium{
+                    position: relative;
+                    bottom: 10px;
+                    right: 1px; 
+                    background-color: #FFA500;
+                    text-align: center;
+                    height: 24px;
+                    width: 153px;
+                }
+
+                .tireIcon {
+                    width: 104px;
+                    height: 104px;
+                }
+
+                .auto {
+                    width: 28px;
+                    height: 56px;
+                    position: relative;
+                    right: 27px;
+                    top: -25px;
+                
+                }
+
+                .buttons {
+                    width: 244px;
+                    height: 40px;
+                    
+                    .btnAdd {
+                        border: 0.1px solid #E0E0E0;
+                        width: 40px;
+                        background-color: white;
+                        transition: all ease-in-out 0.1s;
+                        &:hover {
+                            background-color: rgba(196, 196, 196, 0.296);
+                        }
+                        &:active{
+                            transition: all ease-in-out 0.1s;
+                            transform: scaleY(1.1);
+                        }
+                    }
+
+                    span {
+                        text-align: center;
+                        background-color: #E0E0E0;
+                        width: 50px;
+
+
+                    }
+                }
+
+
+
+
+                .addCart2 {
+                    z-index: 2;
+                    transition: all ease-in-out 0.1s;
+                   
+                    &:active{
+                        opacity: 0.9;
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.2);
+                    }
+                }
+
+                .title {
+                    font-size: 16px;
+                    font-weight: 700;
+                    width: 200px;
+                    text-decoration: underline;
+                }
+
+                .approve {
+                    width: 41px;
+                    height: 33px;
+                }
+
+                .fontSize {
+                    font-size: 14px;
+                }
+
+                .price {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+
+                .check {
+                    width: 15px;
+                    height: 15px;
+                }
+
+            }
+        }
+
+
+        .box-3 {
+            height: 158x;
+            min-height: 158px;
+            min-width: 338px;
+            background-color: white;
+
+
+            .addCart {
+                min-width: 136px;
+                min-height: 40px;
+                z-index: 2;
+                transition: all ease-in-out 0.1s;
+               
+                &:active{
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.2);
+                }
+            }
+
+            .title {
+                font-size: 16px;
+                font-weight: 700;
+                width: 200px;
+                text-decoration: underline;
+            }
+
+            .approve {
+                width: 41px;
+                height: 33px;
+            }
+
+            .fontSize {
+                font-size: 14px;
+            }
+
+            .price {
+                font-size: 20px;
+                font-weight: 700;
+                position: relative;
+                bottom: 6px;
+            }
+
+
+            .price2 {
+                font-size: 14px;
+                font-weight: 500;
+                color: #8E1216;
+                position: relative;
+                bottom: 9px;
+                right: 29px;
+            }
+
+            .check {
+                width: 15px;
+                height: 15px;
+            }
+
+
+            .buttons {
+                width: 250px;
+                height: 40px;
+
+                .btnAdd {
+                    border: 0.1px solid #E0E0E0;
+                    width: 40px;
+                    background-color: white;
+                    transition: all ease-in-out 0.1s;
+                    &:hover {
+                        background-color: rgba(196, 196, 196, 0.296);
+                    }
+                    &:active{
+                        transition: all ease-in-out 0.1s;
+                        transform: scaleY(1.1);
+                    }
+                }
+
+                span {
+                    text-align: center;
+                    background-color: #E0E0E0;
+                    width: 50px;
+
+
+                }
+            }
+
+
+        }
+
+
+        .btnButton {
+            border: solid black 1px;
+            border-radius: 100px;
+            height: 48px;
+            margin-top: 16px;
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            transition: all ease-in-out 0.1s;
+            &:active{
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1); 
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+    }
+
+}
+
+.scrollMenu::-webkit-scrollbar {
+    display: none;
+}
+
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
