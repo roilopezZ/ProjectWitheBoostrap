@@ -923,6 +923,7 @@
   .designMenu .scrollMenu .box-1 .price {
     font-size: 20px;
     font-weight: 700;
+    margin-top: 3px;
   }
   .designMenu .scrollMenu .box-1 .check {
     width: 15px;
@@ -1002,7 +1003,7 @@
     background-color: #E0E0E0;
     width: 50px;
   }
-  .designMenu .btnButton {
+  .btnButton {
     border: solid black 1px;
     border-radius: 100px;
     height: 48px;
@@ -1013,14 +1014,14 @@
     -webkit-transition: all ease-in-out 0.1s;
     transition: all ease-in-out 0.1s;
   }
-  .designMenu .btnButton:active {
+  .btnButton:active {
     opacity: 0.9;
     -webkit-transition: all ease-in-out 0.1s;
     transition: all ease-in-out 0.1s;
     -webkit-transform: scaleY(1.1);
             transform: scaleY(1.1);
   }
-  .designMenu .btnButton a {
+  .btnButton a {
     text-decoration: none;
     color: black;
   }
