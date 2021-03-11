@@ -774,10 +774,6 @@
 
                     }
                 }
-
-
-
-
                 .addCart2 {
                     z-index: 2;
                     transition: all ease-in-out 0.1s;
@@ -858,8 +854,6 @@
             .price {
                 font-size: 20px;
                 font-weight: 700;
-                position: relative;
-                bottom: 6px;
             }
 
 
@@ -867,9 +861,7 @@
                 font-size: 14px;
                 font-weight: 500;
                 color: #8E1216;
-                position: relative;
-                bottom: 9px;
-                right: 29px;
+                width: 70px;
             }
 
             .check {
@@ -1025,8 +1017,8 @@
                 }
 
                 .tireIcon {
-                    width: 104px;
-                    height: 104px;
+                    min-width: 104px;
+                    min-height: 104px;
                 }
 
                 .auto {
@@ -1035,7 +1027,7 @@
                     position: relative;
                     right: 27px;
                     top: -25px;
-                
+                    
                 }
 
                 .buttons {
@@ -1157,9 +1149,7 @@
                 font-size: 14px;
                 font-weight: 500;
                 color: #8E1216;
-                position: relative;
-                bottom: 9px;
-                right: 29px;
+                width: 70px;
             }
 
             .check {

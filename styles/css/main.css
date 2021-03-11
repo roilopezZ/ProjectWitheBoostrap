@@ -729,16 +729,12 @@
   .designMenu .box-3 .price {
     font-size: 20px;
     font-weight: 700;
-    position: relative;
-    bottom: 6px;
   }
   .designMenu .box-3 .price2 {
     font-size: 14px;
     font-weight: 500;
     color: #8E1216;
-    position: relative;
-    bottom: 9px;
-    right: 29px;
+    width: 70px;
   }
   .designMenu .box-3 .check {
     width: 15px;
@@ -864,8 +860,8 @@
     width: 153px;
   }
   .designMenu .scrollMenu .box-1 .tireIcon {
-    width: 104px;
-    height: 104px;
+    min-width: 104px;
+    min-height: 104px;
   }
   .designMenu .scrollMenu .box-1 .auto {
     width: 28px;
@@ -975,9 +971,7 @@
     font-size: 14px;
     font-weight: 500;
     color: #8E1216;
-    position: relative;
-    bottom: 9px;
-    right: 29px;
+    width: 70px;
   }
   .designMenu .box-3 .check {
     width: 15px;
