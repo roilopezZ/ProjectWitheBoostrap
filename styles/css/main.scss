@@ -368,8 +368,6 @@
     .content-375px {
         display: none;
     }
-
-
     .content-768px {
         display: none;
     }
@@ -387,10 +385,6 @@
     }
 
     .designMenu {
-        background-color: #F4F4F4;
-        padding-left: 18px;
-        padding-right: 18px;
-
         .box-3 {
             .addCart {
                 padding-right: 32px;
@@ -401,7 +395,7 @@
 
 //*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
 //================== 768 Tablet ==================//
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
 
 
     .contentAllSize {
@@ -642,9 +636,8 @@
 }
 
 //*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
-//================== 500 Moblie ==================//
-
-@media (min-width: 500px) and (max-width: 767px) {
+//================== 375 Moblie ==================//
+@media (min-width: 200px) and (max-width: 767px) {
     .contentAllSize {
         display: none;
     }
@@ -737,288 +730,6 @@
                 .tireIcon {
                     width: 104px;
                     height: 104px;
-                }
-
-                .auto {
-                    width: 28px;
-                    height: 56px;
-                    position: relative;
-                    right: 27px;
-                    top: -25px;
-                
-                }
-
-                .buttons {
-                    width: 244px;
-                    height: 40px;
-                    
-                    .btnAdd {
-                        border: 0.1px solid #E0E0E0;
-                        width: 40px;
-                        background-color: white;
-                        transition: all ease-in-out 0.1s;
-                        &:hover {
-                            background-color: rgba(196, 196, 196, 0.296);
-                        }
-                        &:active{
-                            transition: all ease-in-out 0.1s;
-                            transform: scaleY(1.1);
-                        }
-                    }
-
-                    span {
-                        text-align: center;
-                        background-color: #E0E0E0;
-                        width: 50px;
-
-
-                    }
-                }
-                .addCart2 {
-                    z-index: 2;
-                    transition: all ease-in-out 0.1s;
-                   
-                    &:active{
-                        opacity: 0.9;
-                        transition: all ease-in-out 0.1s;
-                        transform: scaleY(1.2);
-                    }
-                }
-
-                .title {
-                    font-size: 16px;
-                    font-weight: 700;
-                    width: 200px;
-                    text-decoration: underline;
-                }
-
-                .approve {
-                    width: 41px;
-                    height: 33px;
-                }
-
-                .fontSize {
-                    font-size: 14px;
-                }
-
-                .price {
-                    font-size: 20px;
-                    font-weight: 700;
-                }
-
-                .check {
-                    width: 15px;
-                    height: 15px;
-                }
-
-            }
-        }
-
-
-        .box-3 {
-            height: 158x;
-            min-height: 158px;
-            min-width: 338px;
-            background-color: white;
-
-
-            .addCart {
-                min-width: 136px;
-                min-height: 40px;
-                z-index: 2;
-                transition: all ease-in-out 0.1s;
-               
-                &:active{
-                    opacity: 0.9;
-                    transition: all ease-in-out 0.1s;
-                    transform: scaleY(1.2);
-                }
-            }
-
-            .title {
-                font-size: 16px;
-                font-weight: 700;
-                width: 200px;
-                text-decoration: underline;
-            }
-
-            .approve {
-                width: 41px;
-                height: 33px;
-            }
-
-            .fontSize {
-                font-size: 14px;
-            }
-
-            .price {
-                font-size: 20px;
-                font-weight: 700;
-            }
-
-
-            .price2 {
-                font-size: 14px;
-                font-weight: 500;
-                color: #8E1216;
-                width: 70px;
-            }
-
-            .check {
-                width: 15px;
-                height: 15px;
-            }
-
-
-            .buttons {
-                width: 250px;
-                height: 40px;
-
-                .btnAdd {
-                    border: 0.1px solid #E0E0E0;
-                    width: 40px;
-                    background-color: white;
-                    transition: all ease-in-out 0.1s;
-                    &:hover {
-                        background-color: rgba(196, 196, 196, 0.296);
-                    }
-                    &:active{
-                        transition: all ease-in-out 0.1s;
-                        transform: scaleY(1.1);
-                    }
-                }
-
-                span {
-                    text-align: center;
-                    background-color: #E0E0E0;
-                    width: 50px;
-
-
-                }
-            }
-
-
-        }
-
-
-        .btnButton {
-            border: solid black 1px;
-            border-radius: 100px;
-            height: 48px;
-            margin-top: 16px;
-            background-color: white;
-            text-align: center;
-            padding: 10px;
-            transition: all ease-in-out 0.1s;
-            &:active{
-                opacity: 0.9;
-                transition: all ease-in-out 0.1s;
-                transform: scaleY(1.1); 
-            }
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        }
-
-    }
-
-}
-//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
-//================== 375 Moblie ==================//
-@media (min-width: 200px) and (max-width: 500px) {
-    .contentAllSize {
-        display: none;
-    }
-
-    .content-375px {
-        display: contents;
-    }
-
-    .designNav {
-        height: 80px;
-        width: auto;
-        min-height: 80px;
-        min-width: auto;
-
-        .user {
-            margin-top: 15px;
-        }
-
-        .inputS {
-            display: none;
-        }
-
-        .search {
-            margin-top: 15px;
-            display: inline;
-        }
-
-        .icon-1 {
-            display: none;
-        }
-
-        .logo {
-            width: 50px;
-            height: 50px;
-        }
-
-    }
-
-
-    .designMenu {
-        background-color: #F4F4F4;
-        padding-left: 18px;
-        padding-right: 18px;
-        padding-bottom: 15%;
-
-        .containerH {
-            h2 {
-                padding-top: 31px;
-                font-size: 28px;
-            }
-
-            span {
-                // font-size: 16px;
-                display: none;
-
-                .inputMenu {
-                    display: none;
-                }
-            }
-
-            .fl {
-                float: right;
-                font-size: 16px;
-
-                .inputMenuB {
-                    display: none;
-                }
-            }
-        }
-
-
-        .scrollMenu {
-            overflow-x: scroll;
-
-            .box-1 {
-                min-height: 236px;
-                min-width: 280px;
-                background-color: white;
-
-                .premium{
-                    position: relative;
-                    bottom: 10px;
-                    right: 1px; 
-                    background-color: #FFA500;
-                    text-align: center;
-                    height: 24px;
-                    width: 153px;
-                }
-
-                .tireIcon {
-                    min-width: 104px;
-                    min-height: 104px;
                 }
 
                 .auto {
