@@ -804,7 +804,19 @@
   }
 }
 
+/* width */
 .scrollMenu::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+}
+
+/* Handle */
+.scrollMenu::-webkit-scrollbar-thumb {
+  background: #d1caca;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scrollMenu::-webkit-scrollbar-thumb:hover {
+  background: grey;
 }
 /*# sourceMappingURL=main.css.map */

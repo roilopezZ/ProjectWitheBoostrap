@@ -293,6 +293,8 @@ function minus15() {
 
 
 // ********************************** 375 Screen Stting plus Minus btns ********************************** // 
+
+// ********************** boxs Scroll ********************** //
 // -------------- box 1 Left -------------- // 
 
 var numberP = 1;
@@ -308,11 +310,11 @@ function minus16() {
         count16.value= this.numberP;
     }
 }
-// -------------- End box 1 Left -------------- //
+// -------------- End box 1 Scroll Left -------------- //
 
 
 
-// -------------- box 2 Right -------------- // 
+// -------------- box 2 Scroll Right -------------- // 
 
 var numberQ = 1;
 var count17 = document.getElementById("numbers17");
@@ -328,6 +330,66 @@ function minus17() {
     }
 }
 // -------------- End box 2 Right -------------- //
+
+
+// -------------- box 3 Scroll -------------- // 
+
+var numberV = 1;
+var count22 = document.getElementById("numbers22");
+function plus22() {
+    numberV++;
+    count22.value = this.numberV;
+}
+
+function minus22() {
+    if (numberV > 1 ) {
+        numberV--;
+        count22.value= this.numberV;
+    }
+}
+// -------------- End box 3 Right -------------- //
+
+// -------------- box 4 scroll -------------- // 
+
+var numberW = 1;
+var count23 = document.getElementById("numbers23");
+function plus23() {
+    numberW++;
+    count23.value = this.numberW;
+}
+
+function minus23() {
+    if (numberW > 1 ) {
+        numberW--;
+        count23.value= this.numberW;
+    }
+}
+// -------------- box 4 scroll -------------- // 
+
+
+// -------------- box 5 scroll -------------- // 
+
+var numberX = 1;
+var count24 = document.getElementById("numbers24");
+function plus24() {
+    numberX++;
+    count24.value = this.numberX;
+}
+
+function minus24() {
+    if (numberX > 1 ) {
+        numberX--;
+        count24.value= this.numberX;
+    }
+}
+// -------------- box 5 scroll -------------- // 
+
+// ********************** End boxs Scroll ********************** //
+
+
+
+
+
 
 // -------------- box 3 Left -------------- // 
 
@@ -401,4 +463,5 @@ function minus21() {
     }
 }
 // -------------- End box 6 Right -------------- //
+
 // **********************************  End 375 Screen Stting plus Minus btns ********************************** // 
