@@ -40,7 +40,7 @@
     }
 
     .inputS {
-        margin-top: 17px;
+        margin-top: 22px;
         // margin-bottom: 20px;
         border-radius: 50px;
         border: 1px solid gray;
@@ -704,12 +704,15 @@
 
         }
         a{
+
+            
             .inputS {
                 // border: 1px solid rgb(162, 160, 160);
                 // display: none;
                 width: 40px;
                 padding-right: 39px;
-                
+                position: relative;
+                bottom: 5px;
                 &:hover{
                     // display: none;
                     min-width: 150px;

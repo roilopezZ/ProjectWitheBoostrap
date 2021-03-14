@@ -15,7 +15,7 @@
 }
 
 .designNav .inputS {
-  margin-top: 17px;
+  margin-top: 22px;
   border-radius: 50px;
   border: 1px solid gray;
   width: 100%;
@@ -575,6 +575,8 @@
   .designNav a .inputS {
     width: 40px;
     padding-right: 39px;
+    position: relative;
+    bottom: 5px;
   }
   .designNav a .inputS:hover {
     min-width: 150px;
