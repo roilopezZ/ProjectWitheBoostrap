@@ -1006,13 +1006,14 @@
   
    
   /* Handle */
-  .scrollMenu::-webkit-scrollbar-thumb {
-    background: rgb(209, 202, 202); 
-    border-radius: 10px;
-  }
+//   .scrollMenu::-webkit-scrollbar-thumb {
+//     background: rgb(209, 202, 202); 
+//     border-radius: 10px;
+//   }
   
   /* Handle on hover */
   .scrollMenu::-webkit-scrollbar-thumb:hover {
-    background: grey; 
+    border-radius: 10px;
+    background: rgb(191, 189, 189);
   }
 //*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//

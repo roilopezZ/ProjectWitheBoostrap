@@ -812,13 +812,9 @@
 }
 
 /* Handle */
-.scrollMenu::-webkit-scrollbar-thumb {
-  background: #d1caca;
-  border-radius: 10px;
-}
-
 /* Handle on hover */
 .scrollMenu::-webkit-scrollbar-thumb:hover {
-  background: grey;
+  border-radius: 10px;
+  background: #bfbdbd;
 }
 /*# sourceMappingURL=main.css.map */
