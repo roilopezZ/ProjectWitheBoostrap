@@ -15,14 +15,13 @@
 }
 
 .designNav .inputS {
-  margin-top: 20px;
+  margin-top: 17px;
   border-radius: 50px;
   border: 1px solid gray;
   width: 100%;
   padding-left: 5%;
   max-width: 525px;
   height: 40px;
-  min-height: 40px;
   min-width: 100%;
   background-image: url("./img/SearchBar.png");
   background-position: right;
@@ -574,7 +573,8 @@
     margin-top: 15px;
   }
   .designNav a .inputS {
-    min-width: 40px;
+    width: 40px;
+    padding-right: 39px;
   }
   .designNav a .inputS:hover {
     min-width: 150px;
