@@ -98,6 +98,7 @@
   border-radius: 30px;
   width: 111px;
   text-align: center;
+  padding-right: 7px;
 }
 
 .designMenu .containerH .fl {
@@ -109,6 +110,7 @@
   border-radius: 30px;
   text-align: center;
   width: 111px;
+  padding-right: 7px;
 }
 
 .designMenu .box-1 {
@@ -155,6 +157,7 @@
   z-index: 1;
   -webkit-transition: all ease-in-out 0.1s;
   transition: all ease-in-out 0.1s;
+  outline: none;
 }
 
 .designMenu .box-1 .buttons .btnAdd:active {
@@ -169,11 +172,13 @@
   background-color: rgba(196, 196, 196, 0.296);
 }
 
-.designMenu .box-1 .buttons span {
+.designMenu .box-1 .buttons input {
   background-color: #E0E0E0;
   text-align: center;
   width: 50px;
   padding-top: 8px;
+  border: none;
+  outline: none;
 }
 
 .designMenu .box-1 .addCart {
@@ -253,11 +258,13 @@
   background-color: rgba(196, 196, 196, 0.296);
 }
 
-.box-3 .buttons span {
+.box-3 .buttons input {
   background-color: #E0E0E0;
   text-align: center;
   width: 50px;
   padding-top: 8px;
+  border: none;
+  outline: none;
 }
 
 .box-3 .addCart {
@@ -391,7 +398,7 @@
     -webkit-transform: scaleY(1.1);
             transform: scaleY(1.1);
   }
-  .designMenu .box-1 .buttons span {
+  .designMenu .box-1 .buttons input {
     background-color: #E0E0E0;
     text-align: center;
     width: 50px;
@@ -480,7 +487,7 @@
     -webkit-transform: scaleY(1.1);
             transform: scaleY(1.1);
   }
-  .designMenu .box-3 .buttons span {
+  .designMenu .box-3 .buttons input {
     background-color: #E0E0E0;
     text-align: center;
     width: 50px;
@@ -566,12 +573,16 @@
   .designNav .user {
     margin-top: 15px;
   }
-  .designNav .inputS {
-    display: none;
+  .designNav a .inputS {
+    min-width: 40px;
+  }
+  .designNav a .inputS:hover {
+    min-width: 150px;
+    position: relative;
+    right: 100px;
   }
   .designNav .search {
-    margin-top: 15px;
-    display: inline;
+    display: none;
   }
   .designNav .icon-1 {
     display: none;
@@ -651,10 +662,10 @@
     -webkit-transform: scaleY(1.1);
             transform: scaleY(1.1);
   }
-  .designMenu .scrollMenu .box-1 .buttons span {
+  .designMenu .scrollMenu .box-1 .buttons input {
     text-align: center;
     background-color: #E0E0E0;
-    width: 50px;
+    width: 46px;
   }
   .designMenu .scrollMenu .box-1 .addCart2 {
     z-index: 2;
@@ -740,29 +751,34 @@
     height: 15px;
   }
   .designMenu .box-3 .buttons {
-    width: 250px;
+    width: 130px;
     height: 40px;
   }
   .designMenu .box-3 .buttons .btnAdd {
     border: 0.1px solid #E0E0E0;
     width: 40px;
     background-color: white;
+    z-index: 1;
     -webkit-transition: all ease-in-out 0.1s;
     transition: all ease-in-out 0.1s;
   }
-  .designMenu .box-3 .buttons .btnAdd:hover {
-    background-color: rgba(196, 196, 196, 0.296);
-  }
   .designMenu .box-3 .buttons .btnAdd:active {
+    opacity: 0.9;
     -webkit-transition: all ease-in-out 0.1s;
     transition: all ease-in-out 0.1s;
     -webkit-transform: scaleY(1.1);
             transform: scaleY(1.1);
   }
-  .designMenu .box-3 .buttons span {
-    text-align: center;
+  .designMenu .box-3 .buttons .btnAdd:hover {
+    background-color: rgba(196, 196, 196, 0.296);
+  }
+  .designMenu .box-3 .buttons input {
     background-color: #E0E0E0;
+    text-align: center;
     width: 50px;
+    padding-top: 8px;
+    border: none;
+    outline: none;
   }
   .btnButton {
     border: solid black 1px;

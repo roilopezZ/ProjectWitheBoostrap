@@ -117,6 +117,7 @@
                 border-radius: 30px;
                 width: 111px;
                 text-align: center;
+                padding-right: 7px;
             }
         }
 
@@ -128,6 +129,7 @@
                 border-radius: 30px;
                 text-align: center;
                 width: 111px;
+                padding-right: 7px;
             }
         }
     }
@@ -171,16 +173,16 @@
         .buttons {
             width: 300px;
             height: 40px;
-
+            
             .btnAdd {
                 border: 0.1px solid #E0E0E0;
                 width: 40px;
                 background-color: white;
                 z-index: 1;
                 transition: all ease-in-out 0.1s;
-
+                outline: none;
                 &:active {
-
+                    
                     opacity: 0.9;
                     transition: all ease-in-out 0.1s;
                     transform: scaleY(1.1);
@@ -191,11 +193,13 @@
                 }
             }
 
-            span {
+            input {
                 background-color: #E0E0E0;
                 text-align: center;
                 width: 50px;
                 padding-top: 8px;
+                border: none;
+                outline:none;
             }
 
         }
@@ -255,6 +259,7 @@
     min-width: auto;
     background-color: white;
 
+
     .buttons {
         width: 130px;
         height: 40px;
@@ -277,16 +282,15 @@
                 background-color: rgba(196, 196, 196, 0.296);
             }
         }
-
-        span {
+        input {
             background-color: #E0E0E0;
             text-align: center;
             width: 50px;
             padding-top: 8px;
+            border: none;
+            outline:none;
         }
-
     }
-
 
     .addCart {
         min-width: 136px;
@@ -452,7 +456,7 @@
                     }
                 }
 
-                span {
+                input {
                     background-color: #E0E0E0;
                     text-align: center;
                     width: 50px;
@@ -556,7 +560,7 @@
                     }
                 }
 
-                span {
+                input {
                     background-color: #E0E0E0;
                     text-align: center;
                     width: 50px;
@@ -673,14 +677,26 @@
         .user {
             margin-top: 15px;
         }
-
-        .inputS {
-            display: none;
+        a{
+            .inputS {
+                // display: none;
+                min-width: 40px;
+                
+                &:hover{
+                    // display: none;
+                    min-width: 150px;
+                    // transition: all 50s ease-in-out;
+                    position: relative;
+                    right: 100px;
+                }
+            }
+    
         }
 
         .search {
-            margin-top: 15px;
-            display: inline;
+            display: none;
+            // margin-top: 15px;
+            // display: inline;
         }
 
         .icon-1 {
@@ -779,10 +795,10 @@
                         }
                     }
 
-                    span {
+                    input {
                         text-align: center;
                         background-color: #E0E0E0;
-                        width: 50px;
+                        width: 46px;
 
 
                     }
@@ -891,33 +907,37 @@
 
 
             .buttons {
-                width: 250px;
+                width: 130px;
                 height: 40px;
-
+        
                 .btnAdd {
                     border: 0.1px solid #E0E0E0;
                     width: 40px;
                     background-color: white;
+                    z-index: 1;
                     transition: all ease-in-out 0.1s;
-
-                    &:hover {
-                        background-color: rgba(196, 196, 196, 0.296);
-                    }
-
+        
                     &:active {
+        
+                        opacity: 0.9;
                         transition: all ease-in-out 0.1s;
                         transform: scaleY(1.1);
                     }
+        
+                    &:hover {
+                        background-color: rgba(196, 196, 196, 0.296);
+                    }
                 }
-
-                span {
-                    text-align: center;
+                input {
                     background-color: #E0E0E0;
+                    text-align: center;
                     width: 50px;
-
-
+                    padding-top: 8px;
+                    border: none;
+                    outline:none;
                 }
             }
+        
         }
     }
 
