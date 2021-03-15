@@ -399,9 +399,141 @@
 
 
 ///////////////////////////////////////////// -----media query----- ////////////////////////////////////////////////
+
 //*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
 //================== 1024 Tablet-Landscape ==================//
-@media (min-width: 1024px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .content-375px {
+        display: none;
+    }
+
+    .content-768px {
+        display: none;
+    }
+
+    .box-1 {
+        min-height: 175px;
+        width: 647px;
+        background-color: white;
+        position: relative;
+        // top: 0;
+        // bottom: 0;
+        // right: 0;
+        // left: 0;
+
+        .premium {
+            position: relative;
+            bottom: 34px;
+            right: 24px;
+            background-color: #FFA500;
+            text-align: center;
+            height: 24px;
+            width: 153px;
+        }
+
+        .tireIcon {
+            width: 123px;
+            height: 123px;
+            position: relative;
+            bottom: 35px;
+        }
+
+        .auto {
+            width: 40px;
+            height: 77px;
+            position: relative;
+            right: 28px;
+            top: -7px;
+        }
+
+        .buttons {
+            width: 300px;
+            height: 40px;
+            
+            .btnAdd {
+                border: 0.1px solid #E0E0E0;
+                width: 40px;
+                background-color: white;
+                z-index: 1;
+                transition: all ease-in-out 0.1s;
+                outline: none;
+                &:active {
+                    
+                    opacity: 0.9;
+                    transition: all ease-in-out 0.1s;
+                    transform: scaleY(1.1);
+                }
+
+                &:hover {
+                    background-color: rgba(196, 196, 196, 0.296);
+                }
+            }
+
+            input {
+                background-color: #E0E0E0;
+                text-align: center;
+                width: 50px;
+                padding-top: 8px;
+                border: none;
+                outline:none;
+            }
+
+        }
+
+        .addCart {
+            position: absolute;
+            left: 40% !important;
+            transition: all ease-in-out 0.1s;
+
+            &:active {
+
+                opacity: 0.9;
+                transition: all ease-in-out 0.1s;
+                transform: scaleY(1.1);
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            font-weight: 700;
+            width: 100%;
+            text-decoration: underline;
+        }
+
+        .approve {
+            width: 65px;
+            height: 52px;
+        }
+
+        .fontSize {
+            font-size: 14px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: 700;
+            position: relative;
+            bottom: 5px;
+        }
+
+        .check {
+            width: 15px;
+            height: 15px;
+        }
+
+    }
+
+    .designMenu {
+        .box-3 {
+            .addCart {
+                padding-right: 32px;
+            }
+        }
+    }
+}
+//*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
+//================== 1024 Tablet-Landscape ==================//
+@media (min-width: 1024px) and (max-width: 1199px) {
     .content-375px {
         display: none;
     }
@@ -433,7 +565,7 @@
 
 //*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^**^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*^*//
 //================== 768 Tablet ==================//
-@media (min-width: 767px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 
 
     .contentAllSize {
